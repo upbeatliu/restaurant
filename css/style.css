@@ -1,0 +1,309 @@
+body{
+	background: #FFD7AE;
+	font-family:"Times New Roman", Times, serif;
+}
+#container{
+	width: 960px;
+	margin: 0 auto;	
+}
+#header {
+	height: 80px;	
+	padding: 0px;
+	text-align: left;
+	background: #FFB061;
+	color: #993300;  
+}
+#header h1 {
+	padding: 10px 0 0 60px ;
+	margin: auto;
+	color: #8D0D19;
+}
+.structure{
+    width: 960px;
+    height: 600px;
+}
+nav{
+	float: left;
+	width: 240px; 
+	padding: 2px 5px; 
+	color: #D4E6F4; 
+	background: #CCAB8B;
+	height: 600px;
+        position: relative;
+}
+nav a{
+	color: #D4E6F4; 
+	text-decoration: none;
+}
+ul { 
+	padding-left: 10px;		
+	line-height: 20px; 
+	list-style: none;
+}
+nav .selected{
+	padding-top:14px;
+	padding-left:40px;
+	width:100px;
+	border-bottom: 1px dotted rgba(153,153,153,1);	
+	} 
+/***member page***/
+.memberBtn a{	 
+	line-height: 40px; 
+	padding:20px 55px 0px 40px; 
+	border-bottom: 1px dotted #999;
+}
+.memberBtn a:hover{
+	color: #fff;	
+	font-size:18px;
+	font-weight: bold;
+	line-height: 6px;	
+	height:30px;	
+	display:block;
+}
+
+small{ /****admin log in ***/
+	font-style: italic;
+	padding-top:14px;
+	padding-left:80px;
+	width:100px;        
+        left: 10px;
+        bottom: 0px;
+	}
+.intable{    	
+        font-style: italic;
+	padding-top:0px;
+	padding-left:0px;
+	}
+
+.selected a:hover {
+	color: #fff;	
+	font-size:18px;
+	font-weight: bold;	
+	height:30px;	
+	display:block;	
+	}
+.orderMeal{
+        width: 740px;
+        min-height: 450px;
+        margin: auto;
+}
+.orderMeal p{
+        line-height: 26px;
+}
+.orderMeal span{
+       font-style: italic;
+       color: #993300;
+       font-weight: bold;
+}
+.mealTable{
+    width: 710px;
+    height: 320px;
+    overflow:scroll;
+}
+/***--content***/
+.content{
+    float: left;
+    width: 700px;	    
+    padding-left:10px; 
+    vertical-align: top;
+    position: relative;
+    background: #EEE4B9;    
+    font-size: 12px;
+	font-family: sans-serif;
+	height: 100%;        
+}
+.admincontent{
+	float: left;
+    width: 700px;    
+    padding-left:10px; 
+    vertical-align: top; 
+    background: #EEE4B9;
+    font-size: 12px;
+	font-family: sans-serif;
+	height: 600px;
+	overflow:scroll;
+}
+p{
+	line-height:18px;
+	}
+.content h3{
+        color: #993300;
+        font-weight:bold;
+        margin-top: 10px;
+	margin-left: 50px;
+        }
+.content h4{
+        color: #000;
+        line-height: 40px;
+	margin-top: 10px;        
+	margin-left: 50px;   
+        }
+.content p{
+	color: #660033;
+	margin-top: 10px;        
+	margin-left: 50px;
+}
+.menu{
+	margin-left: 10px;
+	border:thin groove #FF6633;
+	}
+#footer p{	
+	height: 32px;
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
+	background: #FFB061;
+	color: #666666;
+	clear: both;
+}
+
+/***** admin area ****/
+#adminContainer{
+    width: 960px;
+    min-height: 600px;
+	margin: 0 auto;
+	box-shadow: 2px 2px 3px rgba(51,51,51,1);
+}
+input[type=text], input[type=password], textarea {
+	appearance: none;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+	outline: none;
+}
+.main{
+	background: white;
+	min-height: 600px;
+	}
+.main ul li {
+	padding:10px;
+	padding-left:50px;
+  }
+.main .form_area{
+	padding-left:75px;
+	}
+.main .tableLeft{
+	/***** edit content page  ***/
+	padding-left:40px;	
+	}
+.main table {	
+	margin-left:0px;
+	border-collapse:collapse;	
+	border: 1px dotted #8D0D19;
+	}
+.main table, td, th{
+	border:1px dotted #8D0D19;
+	}
+.main li{
+	line-height: 10px;
+	}
+.main a:link, a:visited{
+	color: #805830;
+	text-decoration: none;
+	border-bottom: 1px dotted #805830;
+	}
+.main a:hover{
+    color: #8D0D19;		
+    }
+.button{
+	margin-left:200px;
+}
+/****** booking table  *****/
+#columnleft
+	{
+	padding: 0 20px;
+	width: 180px;
+	margin: 2px;
+	float: left;
+	background: #FF9	
+}
+#columnright
+	{
+	padding-left:20px;
+	width: 648px;
+	margin: 2px;
+	float: left;	
+}
+#columnright img{
+	margin: 1px;
+	border: 0px;
+	}
+button.myBtn{
+    background:url(../img/x.png) repeat-x;
+    cursor:pointer;
+}
+#tables
+{
+    float: left;
+    width: 660px;	    
+    padding-left:14px;
+    background: #EEE4B9;
+    position: relative;
+    font-size: 12px;
+    font-family: sans-serif;
+    min-height: 60%;
+}
+.menu table {	
+	margin-left:0px;
+	border-collapse:collapse;	
+	border: 1px dotted #8D0D19;
+	}
+.menu table, td, th{
+	border:1px solid #8D0D19;
+	}
+/******booking*****/
+.Box{
+        width: 500px;
+        height: 500px;
+        margin-left: 50px;
+        
+    }
+.BoxWTop {    
+    color: black;    
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    margin: auto;
+    padding: 0 10px;
+    position: relative;
+}
+.BoxMiddle{
+    width: 600px;    
+    background: #EEE4B9;    
+}
+/***************report***************/
+#report{
+	width: 430px;
+	margin: auto;
+	}
+/***************voucher********/
+#voucher{
+	width:660px;
+	height: 350px;
+	border: 5px solid #FF6633;
+	}
+#voucherTitle{
+	width: 628px;
+	height: 62px;
+	margin: 0px;
+	padding: 15px;
+	text-align: center;	
+	background: #EEE4B9;
+	border: 2px dashed black;
+	}
+p.currentDate{
+	float: right;	
+	}
+#voucherTitle h1{
+	color: #8D0D19; 
+	}	
+#voucher p{
+	color:#8D0D19;
+	font-size: 18px;
+	}
+#vcontent{
+	width:300px;
+	margin-top: 40px;
+	margin-left:  180px;	
+	}			
